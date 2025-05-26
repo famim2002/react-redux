@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+@utility container{
+  margin: 0 auto;
+}
+
+
+.value-css{
+  font-size: 55px;
+  font-weight: 600;
+  color: rgb(24, 24, 24);
+}
+
+.button-css{
+  padding: 0 20px;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  font-size: 45px;
+  font-weight: 600;
+  color: rgb(24, 24, 24);
+  border:2px solid antiquewhite;
+  transition: all .3s;
+}
+.button-css:hover{
+  border:2px solid rgb(24, 24, 24);
+}
