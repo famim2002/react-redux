@@ -4,17 +4,27 @@
   margin: 0 auto;
 }
 
+body{
+  background-color: rgb(221, 224, 223);
+}
+
 
 .value-css{
   font-size: 55px;
   font-weight: 600;
   color: rgb(24, 24, 24);
+  line-height: initial;
+  border: 2px solid rgb(220, 220, 220);
+  width: 100px;
+  text-align: center;
+  box-shadow: rgba(21, 20, 20, 0.15) 0px 48px 100px 0px;
+  border-radius: 10px;
 }
 
 .button-css{
   padding: 0 20px;
   border-radius: 15px;
-  background-color: antiquewhite;
+  background-color: rgb(198, 196, 196);
   font-size: 45px;
   font-weight: 600;
   color: rgb(24, 24, 24);
@@ -23,4 +33,8 @@
 }
 .button-css:hover{
   border:2px solid rgb(24, 24, 24);
+}
+
+.custom-card-shadow{
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
